@@ -1,6 +1,8 @@
 use_frameworks!
 
 target 'QMGeocoder_Example' do
+    platform :ios, 10.0
+  pod 'CDBKit', '~> 1.4'
   pod 'QMGeocoder', :path => '../'
 
   target 'QMGeocoder_Tests' do

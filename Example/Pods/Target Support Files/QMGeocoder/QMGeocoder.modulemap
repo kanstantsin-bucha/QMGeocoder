@@ -1,0 +1,6 @@
+framework module QMGeocoder {
+  umbrella header "QMGeocoder-umbrella.h"
+
+  export *
+  module * { export * }
+}

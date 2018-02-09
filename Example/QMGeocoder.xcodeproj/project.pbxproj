@@ -59,13 +59,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76B066741845FB66B886F027 /* QMGeocoder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QMGeocoder.podspec; path = ../QMGeocoder.podspec; sourceTree = "<group>"; };
+		76B066741845FB66B886F027 /* QMGeocoder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QMGeocoder.podspec; path = ../QMGeocoder.podspec; sourceTree = "<group>"; };
 		83F7D581B12A2E698425DFB5 /* Pods_QMGeocoder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMGeocoder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA4639677AD181F14F97E250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DA4639677AD181F14F97E250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB65CBB62AE5D9965C18DF24 /* Pods-QMGeocoder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMGeocoder_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMGeocoder_Tests/Pods-QMGeocoder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E78CE2047CE657FF6EF55AB3 /* Pods-QMGeocoder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMGeocoder_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMGeocoder_Example/Pods-QMGeocoder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E88226FB580394DACB8A2083 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E88226FB580394DACB8A2083 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD578E3A1F0D311027614945 /* Pods-QMGeocoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMGeocoder_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMGeocoder_Example/Pods-QMGeocoder_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -370,10 +370,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QMGeocoder_Example/Pods-QMGeocoder_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDBKit/CDBKit.framework",
+				"${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal/LMGeocoderUniversal.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationInfo/LocationInfo.framework",
 				"${BUILT_PRODUCTS_DIR}/QMGeocoder/QMGeocoder.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDBKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMGeocoderUniversal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationInfo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMGeocoder.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

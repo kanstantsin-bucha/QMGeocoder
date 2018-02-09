@@ -9,6 +9,27 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+you could place google API key inside info.plist file at ["google"]["GeocoderApiKey"]
+```ruby
+    <key>Google</key>
+    <dict>
+    <key>GeocoderApiKey</key>
+    <string>ApiKeyStringHere</string>
+    </dict>
+```
+```ObjC
+[QMGeocoder.shared geocodeAddress: address
+                            using: QMGeocoderServiceApple
+                       completion: ^(QMLocationInfo * _Nullable appleInfo, NSError * _Nullable error) {
+    NSLog(@"Apple: %@", appleInfo);
+}];
+
+[QMGeocoder.shared geocodeAddress: address
+                            using: QMGeocoderServiceGoogle
+                       completion: ^(QMLocationInfo * _Nullable googleInfo, NSError * _Nullable error) {
+    NSLog(@"Google: %@", googleInfo);
+}];
+```
 ## Requirements
 
 ## Installation
