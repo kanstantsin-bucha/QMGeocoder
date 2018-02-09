@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QMGeocoder_Example' do
+  pod 'QMGeocoder', :path => '../'
+
+  target 'QMGeocoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
