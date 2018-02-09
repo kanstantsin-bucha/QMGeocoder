@@ -31,7 +31,7 @@
     LMGeocoder * result = [LMGeocoder sharedInstance];
     
     // read api key from info dictionary
-    if (infoDictionaryChecked == false
+    if (self.infoDictionaryChecked == false
         && result.googleAPIKey == nil) {
         NSString * key = [NSBundle mainBundle].infoDictionary[@"Google"][@"GeocoderApiKey"];
         result.googleAPIKey = key;

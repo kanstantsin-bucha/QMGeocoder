@@ -31,7 +31,7 @@ A geocoder instance that use apple or google geocoding services. It represent re
   s.osx.deployment_target = '10.10'
 
   s.source_files = 'QMGeocoder/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'QMGeocoder/Classes/*.h'
 
   s.frameworks = 'Foundation'
   s.dependency 'LocationInfo', '~> 1.0'

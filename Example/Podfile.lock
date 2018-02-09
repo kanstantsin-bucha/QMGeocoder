@@ -18,8 +18,8 @@ PODS:
     - LMGeocoderUniversal
     - LocationInfo/AppleGeocoder
     - LocationInfo/Initial
-  - QMGeocoder (1.0.0):
-    - LMGeocoderUniversal (~> 1.1)
+  - QMGeocoder (1.0.1):
+    - LMGeocoderUniversal (~> 1.2)
     - LocationInfo (~> 1.0)
     - LocationInfo/AppleGeocoder (~> 1.0)
     - LocationInfo/LMGeocoder (~> 1.0)
@@ -36,7 +36,7 @@ SPEC CHECKSUMS:
   CDBKit: b0120d59f2f29eb465133aeb76b82f8653e57b0e
   LMGeocoderUniversal: dd01ed4b14ee9f38ed5f47caff98f4de3fd3c79a
   LocationInfo: 1cb7da8c280403459cbb958a9f93dee454679c4f
-  QMGeocoder: e6dc637be4f65ce9a1f89ee60a42405827e227dd
+  QMGeocoder: 053df4e3626d8305df09b5191938609a4b56ce90
 
 PODFILE CHECKSUM: 2e8ce5c8e77cd51c2724bf8d0b77288bc943cf98
 

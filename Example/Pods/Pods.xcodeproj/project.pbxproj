@@ -26,8 +26,8 @@
 		2E513A8A919096E7BC88E6A8AD6464A8 /* CDBKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 796E0B851A559E523C17B8CF1DAB365A /* CDBKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31168A77998A56A212EC921887508E71 /* LMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = F2427A8BBBF99CC6B3300145A0D31389 /* LMAddress.m */; };
 		3A93CEA86CFF3D570F006A18D847C380 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF7982543052669F99FF618C3F3F17 /* CoreLocation.framework */; };
-		3B00C587F339EC88DD51631FE8915A92 /* LMGeocoderUniversal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C88FC44B8AE312309B4ABF25100026 /* LMGeocoderUniversal.framework */; };
 		3E7CAC158DCF1844E373030CDFA9BDF1 /* LMGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DC96D964D0D06EEB4A00C367782133 /* LMGeocoder.m */; };
+		3E96C5DCF012EC09D81A0E81735362DB /* LocationInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DEF2084679253DB43DA7F0DF3E40AC /* LocationInfo.framework */; };
 		416F4B63DCA20660F5EC39FC0DFF9FF2 /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E40F29590093251B7A30D3CCE3C7A46 /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		428DC64CE464749F383BD9C473E1CD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0AC50DD8EEC3D0576720EEC0A700E7 /* Foundation.framework */; };
 		54429CD05494589C8A3B8CFAB7E90750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0AC50DD8EEC3D0576720EEC0A700E7 /* Foundation.framework */; };
@@ -39,11 +39,10 @@
 		8B4C5491C7D65956E49BF47D155F17CC /* LMAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C89F7DC713C7ED655D986D13757207F /* LMAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C5631F94D977742A95F4E3E8BF6B5A8 /* QMLocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 412074FA9BCD45C90537C2031B619C60 /* QMLocationInfo.m */; };
 		8F279D1D4734CF12772D52C0F6F4750C /* LMGeocoderUniversal.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E36B89D9904226DDED8357839395B1 /* LMGeocoderUniversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F9099DA7A195A435861B1E0B2E32880 /* LocationInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DEF2084679253DB43DA7F0DF3E40AC /* LocationInfo.framework */; };
+		92B7A33A782BA81E577722DAEB1F490C /* LMGeocoderUniversal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C88FC44B8AE312309B4ABF25100026 /* LMGeocoderUniversal.framework */; };
 		9415344B2213E5DBE9DB7E1D04339522 /* QMGeocoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE308C73299868CE2CA8257485D682D /* QMGeocoder-dummy.m */; };
 		9BD5EFB71F4C38F3208141BD73218135 /* QMGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 141DB2E44A9DFADBCD441BC61F120CCF /* QMGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59A81D5DB22EF71DC37B0B250DD944B /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7449ECB45947186B92B73DC895FFBC /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B90825C25B4B6DCEC14B03DDB99D22CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF7982543052669F99FF618C3F3F17 /* CoreLocation.framework */; };
 		C072ED2516C4B65F2A6889E960CDAC1D /* CDBKitLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F70712A4EC8C38C5A584E32E5412A /* CDBKitLocalize.m */; };
 		CB0A186A50A81DEEB3E63E74EBAF5AA6 /* QMLocationInfoLuongConvertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9963B1DA6C8AF2D6A8ADB70373569B35 /* QMLocationInfoLuongConvertion.m */; };
 		D1AF8CA1540886CAD76F40700EAB9D8D /* QMLocationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 878D9EBE98AEE41C94D99B8D218EFE7D /* QMLocationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,7 +50,7 @@
 		DA15C4F343691A7F431BCEBE37EF9AD9 /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 565214C9AB3DD4450902BDCFC6445353 /* CDBKitCore.m */; };
 		DA8832BBDD227E77538B3FF550757D87 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF7982543052669F99FF618C3F3F17 /* CoreLocation.framework */; };
 		DBEF9713F0E04641BD2C1BD72DD0FD03 /* CDBKitLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = B67BFAA11866A8F5B9D74E7CD9D8DE7C /* CDBKitLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFFAB625BE14D617C4618BCADECBDC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0AC50DD8EEC3D0576720EEC0A700E7 /* Foundation.framework */; };
+		E647E44078E310750F6E24C922DA6EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0AC50DD8EEC3D0576720EEC0A700E7 /* Foundation.framework */; };
 		EC4ECF22BE566F1FC9CBC77A2B392A7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0AC50DD8EEC3D0576720EEC0A700E7 /* Foundation.framework */; };
 		EF2A4715106A7FE7E172D09DED524F5C /* LMGeocoderUniversal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE9FCC059B5C9DA06E8B07093C74F6C /* LMGeocoderUniversal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F32E9FE902FE76BC48621E334554CF11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63854905C0696597AC322D4596BD7C93 /* UIKit.framework */; };
@@ -221,23 +220,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82489EDBAAF39A27DAC0165E4DDA9F25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B90825C25B4B6DCEC14B03DDB99D22CF /* CoreLocation.framework in Frameworks */,
-				DFFAB625BE14D617C4618BCADECBDC6F /* Foundation.framework in Frameworks */,
-				3B00C587F339EC88DD51631FE8915A92 /* LMGeocoderUniversal.framework in Frameworks */,
-				8F9099DA7A195A435861B1E0B2E32880 /* LocationInfo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C3B9BE138F991D6A785BEB10140BC91D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA8832BBDD227E77538B3FF550757D87 /* CoreLocation.framework in Frameworks */,
 				0DC3F1F973FD902041EF461A7BF49194 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F0F5114ADA1395F406B036B463CB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E647E44078E310750F6E24C922DA6EA6 /* Foundation.framework in Frameworks */,
+				92B7A33A782BA81E577722DAEB1F490C /* LMGeocoderUniversal.framework in Frameworks */,
+				3E96C5DCF012EC09D81A0E81735362DB /* LocationInfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +640,7 @@
 			buildConfigurationList = CA37839E2C81E94856BEE10AEECB77B6 /* Build configuration list for PBXNativeTarget "QMGeocoder" */;
 			buildPhases = (
 				ECE47D7CEB2C12045EED96BDE96514DC /* Sources */,
-				82489EDBAAF39A27DAC0165E4DDA9F25 /* Frameworks */,
+				D5F0F5114ADA1395F406B036B463CB3F /* Frameworks */,
 				3006544A4BEAD88D1C871BCD764CA11C /* Headers */,
 			);
 			buildRules = (
