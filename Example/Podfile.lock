@@ -1,12 +1,14 @@
 PODS:
-  - CDBKit (1.4.1):
-    - CDBKit/Core (= 1.4.1)
-    - CDBKit/Localize (= 1.4.1)
-    - CDBKit/UI (= 1.4.1)
-  - CDBKit/Core (1.4.1)
-  - CDBKit/Localize (1.4.1)
-  - CDBKit/UI (1.4.1)
-  - LMGeocoderUniversal (1.2.0)
+  - CDBKit (1.4.3):
+    - CDBKit/Array (= 1.4.3)
+    - CDBKit/Core (= 1.4.3)
+    - CDBKit/Localize (= 1.4.3)
+    - CDBKit/UI (= 1.4.3)
+  - CDBKit/Array (1.4.3)
+  - CDBKit/Core (1.4.3)
+  - CDBKit/Localize (1.4.3)
+  - CDBKit/UI (1.4.3)
+  - LMGeocoderUniversal (1.2.1)
   - LocationInfo (1.0.3):
     - LocationInfo/Initial (= 1.0.3)
   - LocationInfo/AppleGeocoder (1.0.3):
@@ -18,7 +20,7 @@ PODS:
     - LMGeocoderUniversal
     - LocationInfo/AppleGeocoder
     - LocationInfo/Initial
-  - QMGeocoder (1.0.1):
+  - QMGeocoder (1.0.2):
     - LMGeocoderUniversal (~> 1.2)
     - LocationInfo (~> 1.0)
     - LocationInfo/AppleGeocoder (~> 1.0)
@@ -33,11 +35,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CDBKit: b0120d59f2f29eb465133aeb76b82f8653e57b0e
-  LMGeocoderUniversal: dd01ed4b14ee9f38ed5f47caff98f4de3fd3c79a
+  CDBKit: aeb16954308b9a39c07bf1deaf32dc64074f0be2
+  LMGeocoderUniversal: a48427d9d6a9fc74f33cbf9b15303c7b1015b549
   LocationInfo: 1cb7da8c280403459cbb958a9f93dee454679c4f
-  QMGeocoder: 053df4e3626d8305df09b5191938609a4b56ce90
+  QMGeocoder: bf2cec7192ca84c2a73b2759bdfe2fcda5f9b7dd
 
 PODFILE CHECKSUM: 2e8ce5c8e77cd51c2724bf8d0b77288bc943cf98
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QMGeocoder'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A geocoder instance that use apple or google geocoding services'
 
 # This description is used to generate tags and improve search results.
