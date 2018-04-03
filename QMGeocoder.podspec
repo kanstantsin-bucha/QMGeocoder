@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QMGeocoder'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A geocoder instance that use apple or google geocoding services'
 
 # This description is used to generate tags and improve search results.
@@ -34,9 +34,9 @@ A geocoder instance that use apple or google geocoding services. It represent re
   s.public_header_files = 'QMGeocoder/Classes/*.h'
 
   s.frameworks = 'Foundation'
-  s.dependency 'LocationInfo', '~> 1.0'
-  s.dependency 'LocationInfo/LMGeocoder', '~> 1.0'
-  s.dependency 'LocationInfo/AppleGeocoder', '~> 1.0'
-  s.dependency 'LMGeocoderUniversal', '~> 1.2'
+  s.dependency 'LocationInfo'
+  s.dependency 'LocationInfo/LMGeocoder'
+  s.dependency 'LocationInfo/AppleGeocoder'
+  s.dependency 'LMGeocoderUniversal'
 
 end
